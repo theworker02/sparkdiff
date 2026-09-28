@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sparkdiff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spark validation gates for diff inputs before they hit prod.",
+  "bin": {
+    "sparkdiff": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sparkdiff.git"
+  },
+  "homepage": "https://theworker02.github.io/sparkdiff/",
+  "keywords": [
+    "spark",
+    "diff",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
